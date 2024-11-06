@@ -32,7 +32,7 @@ int main(){
     cout << "2. VIP\n";
     cout << "Enter your choice (1 or 2): ";
     cin >> customerType;
-     //Apply the additional discount using ternary operters
+     //Apply the additional discount using if else
     cout<<"\nAdditional discount Added:\n";
      //grandTotal=(grandTotal>200)?(grandTotal*0.9):grandTotal;
      if(customerType==1){
