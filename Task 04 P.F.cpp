@@ -7,11 +7,11 @@ int main() {
   double price_C = 20.0;
     int quantity_A, quantity_B, quantity_C;
      //Display and input quantity for each product
-    cout << "Enter the quantity for Product A: ";
+    cout << "Enter the quantity for Product A ($10): ";
     cin >> quantity_A;
-    cout << "Enter the quantity for Product B: ";
+    cout << "Enter the quantity for Product B ($15): ";
     cin >> quantity_B;
-    cout << "Enter the quantity for Product C: ";
+    cout << "Enter the quantity for Product C ($20): ";
     cin >> quantity_C;
      // Process
     double total_A = price_A * quantity_A;
