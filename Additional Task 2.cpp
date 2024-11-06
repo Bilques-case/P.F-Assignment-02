@@ -34,7 +34,6 @@ int main(){
     cin >> customerType;
      //Apply the additional discount using if else
     cout<<"\nAdditional discount Added:\n";
-     //grandTotal=(grandTotal>200)?(grandTotal*0.9):grandTotal;
      if(customerType==1){
         DiscountFee=grandTotal;
         cout<<"Regular No Additional Discount added (if applicable).\n";
